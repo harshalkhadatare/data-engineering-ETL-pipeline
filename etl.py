@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = "inventory.xlsx"
+file_path = "inventory1.xlsx"
 
 df = pd.read_excel(file_path)
 
