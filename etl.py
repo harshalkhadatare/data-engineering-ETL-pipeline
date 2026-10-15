@@ -1,10 +1,14 @@
 import pandas as pd
 
+<<<<<<< HEAD
 # =========================
 # 1. EXTRACT
 # =========================
 
 file_path = "inventory.xlsx"
+=======
+file_path = "inventory1.xlsx"
+>>>>>>> origin/check
 
 df = pd.read_excel(file_path)
 
