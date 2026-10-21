@@ -11,3 +11,9 @@ for row in range (7):
             print(" ", end=' ')
     print()
     
+# ----------------------------------------------------
+
+# Printing 'R' pattern in python
+for row in range (7):
+    for col in range (4):
+        
