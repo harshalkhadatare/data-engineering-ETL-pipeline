@@ -1,16 +1,14 @@
-for row in range(5):
-    for col in range(4):
+# Printing 'H' pattern in python
+for row in range (7):
+    for col in range (4):
         if (
-            row == 0 or
-            row == 2 or
-            row == 4 or
-            (row == 1 and col == 0) or
-            (row == 3 and col == 3)
+            (col == 0) or
+            (col == 3) or 
+            (row == 3)
         ):
-            print("*", end=" ")
+            print("*", end=' ')
         else:
-            print(" ", end=" ")
+            print(" ", end=' ')
     print()
-
-#------------------
-
+    
+# ----------------------------------------------------
