@@ -13,7 +13,4 @@ for row in range (7):
     
 # ----------------------------------------------------
 
-# Printing 'R' pattern in python
-for row in range (7):
-    for col in range (4):
-        
+
